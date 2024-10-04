@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the data
-data = pd.read_csv("all_data.csv" ) 
+data = pd.read_csv("dashboard/all_data.csv" ) 
 
 # Convert 'dteday_x' to datetime for easier filtering
 data['dteday_x'] = pd.to_datetime(data['dteday_x'])
