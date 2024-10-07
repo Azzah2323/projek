@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-file_path = 'all_data.csv'
+file_path = 'dashboard/all_data.csv'
 data = pd.read_csv(file_path)
 
 def plot_hourly_rentals(data):
