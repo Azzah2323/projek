@@ -44,7 +44,7 @@ def plot_week_comparison(data):
     plt.grid(True)
     st.pyplot(plt)
 
-st.title('Dashboard Penyewaan Sepeda')
+st.title('Dashboard Penyewaan Sepeda (Bike Sharing)')
 
 st.header('Paling Banyak Sepeda Disewa pada Jam Berapa dalam Sehari')
 plot_hourly_rentals(data)
