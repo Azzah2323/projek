@@ -1,1 +1,1 @@
-https://submission-kzau3ppakwyljk3dy27tfj.streamlit.app/
+Local URL: http://localhost:8501
